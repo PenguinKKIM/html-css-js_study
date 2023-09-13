@@ -1,0 +1,135 @@
+@import "reset.css";
+
+
+
+.bg-color-lightgray{background-color: lightgray;}
+.bg-color-orange{background-color: orange;}
+.bg-color-navy{background-color: rgb(0, 0, 70);}
+.bg-color-red{background-color: rgb(109, 0, 0);}
+.font-size-1_5 {font-size: 1.5rem;}
+.font-color-wheat{color: wheat;}
+
+
+
+.museum-containor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.museum-header, .header-h1, .header-span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.museum-containor{
+    border: 2px solid rgb(94, 0, 216);
+}
+
+.museum-header, .museum-footer{
+    width: 95vw;
+}
+
+.header-h1{
+    font-size: 8rem;
+    font-weight: 600;
+    
+    margin: 1rem 0;
+}
+
+.header-span{
+    width: inherit;
+    padding: 1rem 0;
+}
+
+.header-p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.museum-main{
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.museum-nav,.museum-aside, .aside-span{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-span{
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.museum-aticle{
+    padding: .5rem 1rem;
+    background-color: rgb(211, 226, 231);
+}
+
+.museum-aticle-section{
+    margin-bottom: 1rem;
+}
+
+.museum-nav-title,.museum-aticle-section-title {
+    padding: 1rem .2rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.museum-aticle-section-div-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.museum-aside-ad{
+    padding: .8rem;
+}
+
+
+.museum-aside-ad-title{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.museum-aside-ad-title>span{
+    margin: .5rem 0;
+}
+
+.museum-aside-ad-title>span:first-child{
+    color: lightgrey;
+    text-decoration: underline;
+}
+.museum-aside-ad-title>span:nth-child(2n){
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.museum-aside-ad-title>span:last-child{
+    color: rgb(0, 0, 0);
+}
+
+.museum-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .5rem 0;
+}
+
+
+.museum-footer-span{
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.museum-footer-span>a{
+    color: aliceblue;
+}
